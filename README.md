@@ -38,17 +38,21 @@ Another tab will be opened.
 Add this code between the brackets:
 
 ```
-    {
-        "key": "ctrl+shift+f",
-        "command": "eslint.executeAutofix"
-    }
+{
+    "key": "ctrl+shift+f",
+    "command": "eslint.executeAutofix"
+}
 ```
 This will add <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>f</kbd> **shortcut** for eslint auto fixing.
+
 You can customize it by changing the value of `"key": "ctrl+shift+f"`.
 
-<hr />
 
+*Now, all is well for using recommendations. if there is a problem, tooltips will be shown to you what are the errors and warnings*
 
+*Then, you can auto fix the problems by using the shortcut hot key you've already set*
+
+*Note that: the `import/export syntax not found` won't be appeared with the configuration*
 
 
 <hr />
