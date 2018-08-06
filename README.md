@@ -16,6 +16,38 @@ npm install eslint eslint-config-eslint babel-eslint eslint-plugin-node eslint-p
 yarn add eslint eslint-config-eslint babel-eslint eslint-plugin-node eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-config-airbnb --dev
 ```
 
+### SECOND
+Install **ESLint** extension in **VsCode**
+
+![ESlint extension picture](./eslint.png)
+
+### THIRD
+Add this **file** to the **root directory** of your **project**:  **[.eslintrc](./.eslintrc)**
+
+### FOURTH
+Set up a key **shortcut** for **eslint auto fix**
+
+Select `File > Preferences > Keyboard Shorcuts` on the top bar.
+
+A new tab will be opened.
+
+Find and select **keybindings.json** in the top of current tab.
+
+Another tab will be opened.
+
+Add this code between the brackets:
+
+```
+    {
+        "key": "ctrl+shift+f",
+        "command": "eslint.executeAutofix"
+    }
+```
+This will add <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>f</kbd> **shortcut** for eslint auto fixing.
+You can customize it by changing the value of `"key": "ctrl+shift+f"`.
+
+<hr />
+
 
 
 
