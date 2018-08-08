@@ -54,6 +54,17 @@ You can customize it by changing the value of `"key": "ctrl+shift+f"`.
 
 *Note that: the `import/export syntax not found` won't be appeared with the configuration*
 
+### FIFTH
+You can add an **ignore file** for ignoring a specific single/nultiple path, directory or file.
+
+Add this file to the **root directory** of your project: [.eslintignore](./.eslintignore)
+
+And add the path you don't want to be linted like below:
+
+```
+/*.js
+/node_modules
+```
 
 <hr />
 
