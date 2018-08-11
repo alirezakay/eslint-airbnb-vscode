@@ -66,6 +66,19 @@ And add the path you don't want to be linted like below:
 /node_modules
 ```
 
+<hr/>
+
+If you want to **diable** a **rule** just for **one case**, you can use this comment on top of the code line:
+```
+/* eslint-disable-next-line [rule-name] */
+```
+
+For example:
+```
+/* eslint-disable-next-line no-console */
+console.log("testing");
+```
+
 <hr />
 
 
