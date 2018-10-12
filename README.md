@@ -16,6 +16,9 @@ npm install eslint eslint-config-eslint babel-eslint eslint-plugin-node eslint-p
 yarn add eslint eslint-config-eslint babel-eslint eslint-plugin-node eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-config-airbnb --dev
 ```
 
+*NOTICE* <br />
+If you are using `create-react-app`, you **won't need** to install `eslint` and `babel-eslint`!
+
 ### SECOND
 Install **ESLint** extension in **VsCode**
 
